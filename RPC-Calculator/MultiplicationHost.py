@@ -1,4 +1,5 @@
 from xmlrpc.server import SimpleXMLRPCServer
+
 def calcMultiplication (n1, n2):
     return n1*n2
 
