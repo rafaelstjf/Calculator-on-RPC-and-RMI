@@ -15,6 +15,7 @@ ops = {
 
 class ExpressionTree:
     def __init__(self, expression):
+        expression.replace(" ", "")
         self.expression = expression
         self.outQueue = []
         self.opStack = []
